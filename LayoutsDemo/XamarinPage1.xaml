@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsDemo.XamarinPage1">
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="10">
+            <StackLayout>
+                <Label Text="Nombre" Font="Large"></Label>
+                <Entry x:Name="entryNombre"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Edad" Font="Large"></Label>
+                <Entry x:Name="entryEdad"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Dirección" Font="Large"></Label>
+                <Entry x:Name="entryDireccion"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="RFC" Font="Large"></Label>
+                <Entry x:Name="entryRFC"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Razón Social" Font="Large"></Label>
+                <Entry x:Name="entryRazonSocial"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Número Exterior" Font="Large"></Label>
+                <Entry x:Name="entryNumeroExterior"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Número Interior" Font="Large"></Label>
+                <Entry x:Name="entryNumeroInterior"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Ciudad" Font="Large"></Label>
+                <Entry x:Name="entryCiudad"></Entry>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Estado" Font="Large"></Label>
+                <Entry x:Name="entryEstado"></Entry>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
